@@ -1,7 +1,7 @@
 const canvas = document.querySelector('#draw');
 const ctx = canvas.getContext('2d');
 canvas.width = 800;
-canvas.height = 800;
+canvas.height = 580;
 
 ctx.lineJoin = 'round';  // joining line with round finish
 ctx.lineCap = 'round'; // finish point with round corners
